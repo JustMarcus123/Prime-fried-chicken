@@ -1,0 +1,67 @@
+
+color{
+    color: #F72004;
+    color: #C71813;
+    color: #FF6F09;
+    color: #FDD20E;
+  }
+
+
+.about-view{
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+/* .title-container {
+    display: flex;
+    align-items: center; 
+} */
+
+.title-line {
+    flex-grow: 1; 
+    height: 2px;
+    background-color: #FDD20E;
+    margin-top: 5px; 
+}
+
+
+.about-view-title{
+    width: 100%;
+    text-align: center;
+}
+
+.about-view-container{
+    display: flex;
+    gap: 30px;
+}
+
+
+.year-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #F72004;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.begin-shop {
+    position: relative;
+    text-align: center;
+}
+
+.begin-shop img{
+   border-radius: 100px;
+}
+
+.first-section{
+    display: flex;
+    gap: 20px;
+}
+
+/* our experts */
+

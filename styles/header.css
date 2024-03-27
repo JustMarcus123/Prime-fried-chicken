@@ -1,0 +1,132 @@
+color{
+    color: #F72004;
+    color: #C71813;
+    color: #FF6F09;
+    color: #FDD20E;
+  }
+
+
+
+  .top-section {
+    position: relative;
+    z-index: 999; /* Set a high z-index for the top section */
+    background-color: #FDD20E;;
+    padding: 20px;
+    width: 100%;
+    /* margin-bottom: 10px; */
+  }
+
+  .top-section a{
+    color: black;
+  }
+
+  .section-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .tracking-unit-input{
+    display: flex;
+    gap: 20px;
+  }
+  
+
+  .tracking-unit-awd{
+    width: 30%;
+  }
+  .tracking-enter-number{
+    width: 50%;
+  }
+
+  .tracking-unit-button{
+    width: 20%;
+  }
+
+.tracking-unit-awd select{
+    padding: 5px;
+    /* border-radius: 10px; */
+    width: 100%;
+}
+
+.tracking-enter-number input{
+    padding: 5px;
+    /* border-radius: 10px; */
+    width: 100%;
+}
+
+.tracking-unit-button button{
+    padding: 5px;
+    /* border-radius: 10px; */
+    width: 100%;
+}
+
+  
+  .top-section .container {
+    /* max-width: 1200px; */
+    /* margin: 0 auto; */
+  }
+  
+  .top-section .col {
+    text-align: center;
+    color: #333;
+  }
+
+  .section-social-media{
+    display: flex;
+    gap: 30px;
+
+  }
+
+  .contact-details{
+    display: flex;
+    gap: 30px;
+  }
+  
+  /* Adjust the navbar z-index */
+  #navbar {
+    margin-top: 10px;
+    z-index: 998; /* Set a lower z-index for the navbar */
+  }
+
+
+  @media(max-width:800px){
+
+
+    .tracking-unit{
+        margin-bottom: 10px;
+    }
+    .section-container{
+        display: inline;
+    }
+
+    .tracking-unit-input{
+        gap: 0px;
+    }
+    .tracking-unit-awd select{
+       
+        border-radius: 0px;
+       
+    }
+    
+    .tracking-enter-number input{
+     
+        border-radius: 0px;
+
+    }
+    
+    .tracking-unit-button button{
+        /* padding: 5px; */
+        border-radius: 0px;
+        /* width: 100%; */
+    }
+
+    /* #navbar {
+        margin-top: 20px;
+        
+      } */
+
+      .top-section{
+        display: none;
+      }
+  }
