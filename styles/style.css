@@ -19,7 +19,7 @@ color{
   }
   
   .nav-item .nav-link{
-    color: #3D3125;
+    color: #FDD20E;
   
   }
 
@@ -30,6 +30,7 @@ color{
 
   .cart{
     font-size: 30px;
+    color: white;
   }
 
   .reserve-table button{
